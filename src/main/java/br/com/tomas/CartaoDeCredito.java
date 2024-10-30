@@ -44,7 +44,7 @@ public class CartaoDeCredito {
                 juros += (diaPagamento - 25) * (totalFatura * 0.01); // Intereses de 1% por día adicional
             }
 
-            // Muestra el resultado
+            // Mostra el resultado
             var valorTotal = totalFatura + juros;
             System.out.printf("Valor total da fatura: R$ %.2f\n", totalFatura);
             System.out.printf("Juros aplicados: R$ %.2f\n", juros);
